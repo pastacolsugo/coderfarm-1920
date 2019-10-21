@@ -4,5 +4,7 @@ using namespace std;
 
 int main() {
 	int topolino = 5;
-	cout << 'topolino vale ' << topolino << endl;
+	cout << "inserisci il nuovo valore: ";
+	cin >> topolino;
+	cout << "topolino vale " << topolino << endl;
 }
