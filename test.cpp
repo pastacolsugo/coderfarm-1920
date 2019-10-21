@@ -7,4 +7,9 @@ int main() {
 	cout << "inserisci il nuovo valore: ";
 	cin >> topolino;
 	cout << "topolino vale " << topolino << endl;
+	if (topolino > 0) {
+		cout << "topolino e' positivo" << endl;
+	} else {
+		cout << "topolino e' negativo" << endl;
+	}
 }
