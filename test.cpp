@@ -3,5 +3,6 @@
 using namespace std;
 
 int main() {
-	cout << "hello world!" << endl;
+	int topolino = 5;
+	cout << 'topolino vale ' << topolino << endl;
 }
