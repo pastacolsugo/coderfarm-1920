@@ -9,7 +9,7 @@ int main() {
 	cout << "topolino vale " << topolino << endl;
 	if (topolino > 0) {
 		cout << "topolino e' positivo" << endl;
-	} else {
+	} else { // questo e' un commento :)
 		if (topolino == 0) {
 			cout << "topolino e' zero" << endl;
 		} else {
