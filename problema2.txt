@@ -1,0 +1,5 @@
+chiedi all'utente di inserire da tastiera il numero di ruote del veicolo
+
+se il veicolo ha 2 ruote, stampa "il veicolo e' una moto"
+se il veicolo ha 4 ruote, stampa "il veicolo e' un'auto"
+se il veicolo ha piu' di 4 ruote, stampa "il veicolo e' un camion"
