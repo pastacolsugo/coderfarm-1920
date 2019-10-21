@@ -10,6 +10,10 @@ int main() {
 	if (topolino > 0) {
 		cout << "topolino e' positivo" << endl;
 	} else {
-		cout << "topolino e' negativo" << endl;
+		if (topolino == 0) {
+			cout << "topolino e' zero" << endl;
+		} else {
+			cout << "topolino e' negativo" << endl;
+		}
 	}
 }
