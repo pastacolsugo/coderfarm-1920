@@ -7,6 +7,7 @@ int main() {
 	cout << "inserici il numero di numeri: ";
 	cin >> n;
 
+	cout << "inserici " << n << " numeri: ";
 	int v[n];
 	for (int i = 0; i < n; i = i + 1) {
 		cin >> v[i];

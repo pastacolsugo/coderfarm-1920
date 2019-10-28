@@ -10,7 +10,7 @@ int main() {
 		cout << "Il veicolo e' una moto";
 	} else {
 		if (ruote == 4) {
-			cout << "Il veicolo e' un'auto";
+			cout << "Il veicolo e' un auto";
 		} else {
 			cout << "Il veicolo e' un camion";
 		}
