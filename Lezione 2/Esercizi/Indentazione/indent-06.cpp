@@ -30,9 +30,9 @@ for (int i = 0; i < m; i++) {
 cin >> p;
 
 if (map.find(p) == map.end()) {
-	map[p] = 1;
+map[p] = 1;
 } else {
-	map[p]++;
+map[p]++;
 }
 
 if (set.find(p) != set.end()) {
