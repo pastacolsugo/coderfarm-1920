@@ -15,6 +15,7 @@ int main() {
 		if (somma > maxSomma) {
 			maxSomma = somma;
 		}
+		somma = 0;
 	}
 }
 
