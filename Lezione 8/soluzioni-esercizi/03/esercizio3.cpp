@@ -12,6 +12,9 @@ int main() {
 		for (int j = i; j < i + k; j++) {
 			somma += qualita[j];
 		}
+		if (somma > maxSomma) {
+			maxSomma = somma;
+		}
 	}
 }
 
