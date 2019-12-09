@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
 	int n, k, somma = 0, maxSomma = 0;
+	int giornoMaxSomma = 0;
 	cin >> n >> k;
 	int qualita[n];
 	for (int i = 0; i < n; i++) {
@@ -16,9 +17,12 @@ int main() {
 		}
 		if (somma > maxSomma) {
 			maxSomma = somma;
+			giornoMaxSomma = i;
 		}
 		somma = 0;
 	}
+
+	cout << giornoMaxSomma << endl;
 }
 
 
