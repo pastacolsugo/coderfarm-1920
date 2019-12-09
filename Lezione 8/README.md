@@ -10,5 +10,7 @@
 
 [Esercizio](https://github.com/pastacolsugo/coderfarm/blob/master/Lezione%2009/Esercizi%20-%209.md)
 
+[Soluzione esercizio](https://github.com/pastacolsugo/coderfarm/blob/master/Lezione%2009/soluzioni/Esercizio%201.cpp)
+
 
 
