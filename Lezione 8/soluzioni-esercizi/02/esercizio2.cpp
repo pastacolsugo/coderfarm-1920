@@ -14,7 +14,14 @@ int main() {
 			max1 = pomodori[i];
 		}
 	}
-	cout << max1 << endl;
+	max2 = 0;
+	for (int i=0; i<n; i++) {
+		if (pomodori[i] < max1 and pomodori[i] > max2) {
+			max2 = pomodori[i];
+		}
+	}
+	cout << "I pomodori piu' grandi sono: ";
+	cout << max1 << " e " << max2 << endl;
 }
 
 
