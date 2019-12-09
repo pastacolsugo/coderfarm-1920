@@ -11,6 +11,7 @@ int main() {
 	for (int i = 0; i < n - k; i++) {
 		for (int j = i; j < i + k; j++) {
 			somma += qualita[j];
+			// somma = somma + qualita[j];
 		}
 		if (somma > maxSomma) {
 			maxSomma = somma;
