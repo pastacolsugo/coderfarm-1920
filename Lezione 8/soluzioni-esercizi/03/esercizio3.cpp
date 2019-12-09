@@ -9,7 +9,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cin >> qualita[i];
 	}
-	for (int i = 0; i < n - k; i++) {
+	for (int i = 0; i <= n - k; i++) {
 		for (int j = i; j < i + k; j++) {
 			somma += qualita[j];
 			// equivale a:
@@ -22,7 +22,7 @@ int main() {
 		somma = 0;
 	}
 
-	cout << giornoMaxSomma << endl;
+	cout << giornoMaxSomma + 1 << endl;
 }
 
 
