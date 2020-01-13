@@ -1,5 +1,3 @@
-# Lezione 10
-
 ### Pair
 
 ```c++
@@ -11,13 +9,13 @@ pippo.first = 3;
 pippo.second = 5;
 ```
 
-Il pair e' un **tipo di variabile** che contiene due valori. Il tipo dei due valori si specifica tra le parentesi angolari (maggiore e minore).
+Il pair e' un *oggetto* che contiene due valori. Il tipo dei due valori si specifica tra le parentesi angolari (maggiore e minore).
 
 I due valori sono accessibili con `first` e `second`. First e second sono come delle variabili all'interno del pair.
 
-Notiamo che queste sono variabili (chiamate **campi**) e non funzioni (chiamati **metodi**) tipo `size()`.
+Notiamo che queste sono variabili (chiamate *campi*) e non funzioni (chiamate *metodi*, tipo `size()`).
 
-> Ovviamente i tipi di `first` e `second` possono essere diversi.
+> I tipi di `first` e `second` possono essere diversi.
 
 ### Vector di pair
 
