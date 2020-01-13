@@ -20,7 +20,7 @@ int main () {
 		coordY.push_back(y);
 	}	
 
-	for (int i = 0; i < punti.size(); i++) {
+	for (int i = 0; i < n; i++) {
 		double distanza = sqrt(coordX[i] * coordX[i] + coordY[i] * coordY[i]);
 
 		distanze.push_back(distanza);
