@@ -57,3 +57,14 @@ pair <int, int> p(4, 3);
 ```
 
 Il costruttore del pair semplicemente prende i due valori per `first` e `second`.
+
+### Come usare il pair
+
+```c++
+pair <int, int> p;
+p.first = 4;
+p.second = 9;
+pair <float, int> q(3.14, 10);
+pair <float, float> mattone;
+mattone = make_pair(1.11111, 2.22222);
+```
