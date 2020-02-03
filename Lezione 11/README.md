@@ -1,5 +1,9 @@
 # Lezione 11
 
+### C++ `string`
+
+http://www.cplusplus.com/reference/string/string/
+
 ### Esercizi stringhe
 
 1. Leggi una stringa e stampa la sua lunghezza
